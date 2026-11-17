@@ -1,0 +1,251 @@
+{
+  "title": "Agenda degli eventi culturali",
+  "description": "Gestisci il calendario della biblioteca, consulta i posti disponibili e registra le iscrizioni. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi e delle iscrizioni della biblioteca.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni registrate",
+          "value": "86"
+        },
+        {
+          "label": "Posti ancora disponibili",
+          "value": "34"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture al chiaro di luna",
+          "12/06/2026",
+          "18:00",
+          "Sala Nubi",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Laboratorio di carta stellare",
+          "14/06/2026",
+          "16:30",
+          "Officina Lumo",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Racconti in cerchio",
+          "18/06/2026",
+          "17:00",
+          "Sala Vela",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Piccolo atlante illustrato",
+          "21/06/2026",
+          "10:30",
+          "Sala Nubi",
+          "18",
+          "11",
+          "7"
+        ],
+        [
+          "Musica tra le pagine",
+          "25/06/2026",
+          "18:30",
+          "Cortile delle Lanterne",
+          "30",
+          "27",
+          "3"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e filtra gli appuntamenti culturali in calendario.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "34"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Letture al chiaro di luna",
+          "12/06/2026",
+          "18:00",
+          "Sala Nubi",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Laboratorio di carta stellare",
+          "14/06/2026",
+          "16:30",
+          "Officina Lumo",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Racconti in cerchio",
+          "18/06/2026",
+          "17:00",
+          "Sala Vela",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Piccolo atlante illustrato",
+          "21/06/2026",
+          "10:30",
+          "Sala Nubi",
+          "18",
+          "11",
+          "7"
+        ],
+        [
+          "Musica tra le pagine",
+          "25/06/2026",
+          "18:30",
+          "Cortile delle Lanterne",
+          "30",
+          "27",
+          "3"
+        ],
+        [
+          "Storie di boschi blu",
+          "28/06/2026",
+          "11:00",
+          "Sala Vela",
+          "22",
+          "17",
+          "5"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Orario",
+        "Luogo",
+        "Capienza"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Registra le prenotazioni e controlla i posti rimasti per ogni evento.",
+      "metrics": [
+        {
+          "label": "Iscrizioni registrate",
+          "value": "86"
+        },
+        {
+          "label": "Posti ancora disponibili",
+          "value": "34"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Iscrizione",
+        "Evento",
+        "Data",
+        "Partecipante",
+        "Posti prenotati",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "IS-2401",
+          "Letture al chiaro di luna",
+          "12/06/2026",
+          "Lumo Cobalto",
+          "1",
+          "Confermata"
+        ],
+        [
+          "IS-2402",
+          "Letture al chiaro di luna",
+          "12/06/2026",
+          "Vela Indaco",
+          "2",
+          "Confermata"
+        ],
+        [
+          "IS-2403",
+          "Laboratorio di carta stellare",
+          "14/06/2026",
+          "Nubi Ambra",
+          "1",
+          "Confermata"
+        ],
+        [
+          "IS-2404",
+          "Racconti in cerchio",
+          "18/06/2026",
+          "Lumo Corallo",
+          "1",
+          "In lista d'attesa"
+        ],
+        [
+          "IS-2405",
+          "Musica tra le pagine",
+          "25/06/2026",
+          "Vela Salvia",
+          "2",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Iscrizione",
+        "Evento",
+        "Data",
+        "Partecipante",
+        "Posti prenotati",
+        "Stato"
+      ]
+    }
+  ]
+}
